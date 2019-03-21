@@ -1,0 +1,37 @@
+.grid {
+  border: solid 1px mediumaquamarine; //FUN COLOUR!
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: column; //MODIFIED
+}
+
+.cell {
+  flex: 1;
+  padding: 10px;
+  border: solid 1px mediumaquamarine;
+}
+@media all and ( min-width: 480px ) {
+
+  .grid-row-sm {
+    flex-direction: row;
+  }
+
+}
+
+@media all and ( min-width: 720px ) {
+
+  .grid-row-md {
+    flex-direction: row;
+  }
+
+}
+
+@media all and ( min-width: 960px ) {
+
+  .grid-row-lg {
+    flex-direction: row;
+  }
+
+}
